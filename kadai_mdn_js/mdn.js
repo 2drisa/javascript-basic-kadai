@@ -1,3 +1,7 @@
-const moonLanding = new Date('September 22, 23');
+const moonLanding = new Date();
+const year = moonLanding.getFullYear();
+const month = moonLanding.getMonth()+1;
+const day = moonLanding.getDate();
 
-console.log(moonLanding.getFullYear() + '年' + moonLanding.getMonth() + '月' + moonLanding.getDate() + '日');
+console.log(year + '年' + month + '月' + day + '日');
+
