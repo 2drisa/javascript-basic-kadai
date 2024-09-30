@@ -1,4 +1,4 @@
 const totalNum = (double) => {
-  console.log(double * double);
+  return double * double ;
 }
-totalNum(10);
+console.log(totalNum(10));
